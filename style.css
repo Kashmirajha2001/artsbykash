@@ -1,0 +1,18 @@
+.dp{
+    height: 18vw;
+    width: 18vw;
+}
+
+@media screen and (max-width:600px){
+    .dp{
+        height: 25vw;
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width:800px){
+    .carousel-image{
+        height: 250px;
+        width:100px;
+    }
+}
