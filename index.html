@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(47, 44, 44);">
         <a class="navbar-brand" href="./">
             @artsbykash</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -24,8 +24,8 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="./">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index">
                         <img src="svgs/house-door.svg" width="25" height="25" class="d-inline-block align-top" alt="" />
                         Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -35,7 +35,7 @@
                             alt="" />
                         About</a>
                 </li>
-                <li class="nav-item dropdown active">
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img src="svgs/three-dots-vertical.svg" width="25" height="25" class="d-inline-block align-top"
@@ -47,16 +47,21 @@
                         <a class="dropdown-item" href="./color_sketch">Color Sketches</a>
                         <!-- <div class="dropdown-divider"></div> -->
                         <a class="dropdown-item" href="./watercolor">Watercolor</a>
-                        <a class="dropdown-item" href=./"oilpainting">Oil painting</a>
+                        <a class="dropdown-item" href="./oilpainting">Oil painting</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pricing">
+                    <a class="nav-link" href="./pricing">
                         <img src="svgs/tags.svg" width="25" height="25" class="d-inline-block align-top"
                             alt="" />
-                            Price</a>
+                        Price</a>
                 </li>
             </ul>
+
+            <a href="gallery" class="btn btn-outline-primary" style="font-weight: bolder;" role="button" data-bs-toggle="button">Gallery</a>
+            <a href="blog" class="btn btn-outline-danger" role="button" data-bs-toggle="button">Blog</a>
+            <a href="commission" class="btn btn-outline-warning" role="button" data-bs-toggle="button">Commission
+            </a>
         </div>
     </nav>
 
@@ -66,16 +71,16 @@
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
+            </ol>./
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="gallery/home1.jpg" class="d-block w-100 carousel-image" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>“The only time I feel alive is when I'm painting.”</h5>
                         <p>~Vincent Van Gogh</p>
-                        <a href="gallery.html" class="btn btn-primary" role="button" data-bs-toggle="button">Gallery</a>
-                        <a href="blog.html" class="btn btn-danger" role="button" data-bs-toggle="button">Blog</a>
-                        <a href="commission.html" class="btn btn-warning" role="button"
+                        <a href="./gallery" class="btn btn-primary" role="button" data-bs-toggle="button">Gallery</a>
+                        <a href="./blogl" class="btn btn-danger" role="button" data-bs-toggle="button">Blog</a>
+                        <a href="./commission" class="btn btn-warning" role="button"
                             data-bs-toggle="button">Commission <span class="badge text-primary bg-dark">New</span>
                         </a>
                     </div>
@@ -85,9 +90,9 @@
                     <div class="carousel-caption d-none d-md-block">
                         <h5>"Art is not what you see, but what you make others see.”</h5>
                         <p>~Edgar Degas</p>
-                        <a href="gallery.html" class="btn btn-primary" role="button" data-bs-toggle="button">Gallery</a>
-                        <a href="blog.html" class="btn btn-danger" role="button" data-bs-toggle="button">Blog</a>
-                        <a href="commission.html" class="btn btn-warning" role="button"
+                        <a href="./gallery" class="btn btn-primary" role="button" data-bs-toggle="button">Gallery</a>
+                        <a href="./blog" class="btn btn-danger" role="button" data-bs-toggle="button">Blog</a>
+                        <a href="./commission" class="btn btn-warning" role="button"
                             data-bs-toggle="button">Commission <span class="badge text-primary bg-dark">New</span>
                         </a>
                     </div>
@@ -97,9 +102,9 @@
                     <div class="carousel-caption d-none d-md-block">
                         <h5>“I dream of painting and then I paint my dream.”</h5>
                         <p>~Vincent Van Gogh</p>
-                        <a href="gallery.html" class="btn btn-primary" role="button" data-bs-toggle="button">Gallery</a>
-                        <a href="blog.html" class="btn btn-danger" role="button" data-bs-toggle="button">Blog</a>
-                        <a href="commission.html" class="btn btn-warning" role="button"
+                        <a href="./gallery" class="btn btn-primary" role="button" data-bs-toggle="button">Gallery</a>
+                        <a href="./blog" class="btn btn-danger" role="button" data-bs-toggle="button">Blog</a>
+                        <a href="./commission" class="btn btn-warning" role="button"
                             data-bs-toggle="button">Commission <span class="badge text-primary bg-dark">New</span>
                         </a>
                     </div>
