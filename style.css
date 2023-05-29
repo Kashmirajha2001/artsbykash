@@ -16,3 +16,37 @@
         width:100px;
     }
 }
+body{
+    background-image: linear-gradient(to bottom right,#405DE6,#833AB4,#6a82fb,#fc5c7d,#833AB4,#6a82fb,#405DE6);
+}
+
+.text{
+    font-weight: 400;
+}
+
+.card-grad{
+    background-color:lightpink;
+}
+.card-grad:hover{
+    transform:translateY(-20px);
+    background: linear-gradient(lightpink,rgb(245, 104, 43));
+}
+
+.light{
+    animation:animate 2s linear infinite
+}
+
+@keyframes animate{
+    0%{
+        color:#ff0303;
+        box-shadow: none;
+    }
+    100%{
+        color:white;
+        box-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 100px #03bcf4;
+    }
+}
