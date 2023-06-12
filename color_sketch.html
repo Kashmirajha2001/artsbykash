@@ -9,12 +9,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
     <title>artsbykash</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navBar">
         <a class="navbar-brand" href="./">
             @artsbykash</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -57,7 +59,7 @@
                             Price</a>
                 </li>
             </ul>
-            <a href="gallery.html" class="btn btn-outline-primary" style="font-weight: bolder;" role="button" data-bs-toggle="button">Gallery</a>
+            <a href="gallery.html" class="btn btn-outline-primary" role="button" data-bs-toggle="button">Gallery</a>
             <a href="blog.html" class="btn btn-outline-danger" role="button" data-bs-toggle="button">Blog</a>
             <a href="commission.html" class="btn btn-outline-warning" role="button" data-bs-toggle="button">Commission
             </a>
@@ -66,18 +68,18 @@
 
     <div class="container my-4">
         <div class="row featurette d-flex justify-content-center align-items-center">
-            <div class="col-md-7">
+            <div class="col-md-7" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="featurette-heading fw-normal lh-1">Drawing with coloured pencils</h2>
                 <p class="lead">Drawing with coloured pencils has a lot of appealing qualities. All you really need to get started producing with them is a few coloured pencils and some paper. You don't require dirty or dangerous chemicals, the materials are lightweight and portable, and preparation time and cleaning are almost non-issues. Additionally, coloured pencil drawing may produce incredibly fine-tuned and exquisite works of art that are on par with those produced with any other media.</p>
             </div>
-            <div class="col-md-5 order-md-1">
+            <div class="col-md-5 order-md-1" data-aos="zoom-in" data-aos-duration="1000">
                 <img src="gallery/colorSketch1.jpeg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto d-flex" width="300"
                     height="300">
                 </img>
             </div>
         </div>
         <div class="row featurette d-flex justify-content-center align-items-center my-4">
-            <div class="col-md-7 order-md-2">
+            <div class="col-md-7 order-md-2" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="featurette-heading fw-normal lh-1">Materials used by me for coloured sketches</h2>
                 <div class="lead">
                     <ul>
@@ -95,7 +97,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-5 order-md-1">
+            <div class="col-md-5 order-md-1" data-aos="zoom-in" data-aos-duration="1000">
                 <img src="gallery/colorSketch2.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto d-flex" width="300"
                     height="300">
                 </img>
@@ -125,6 +127,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
